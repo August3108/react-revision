@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import Helloworld from './components/pages/1.hello world';
+import Highlighter from "./components/Highlighter";
+
 function App() {
   return (
     <div className="App">
-      <Helloworld />
+      <Highlighter />
     </div>
   );
 }
